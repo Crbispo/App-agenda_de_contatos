@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Agenda Contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/agenda_calendario.jpg" alt="agenda">
+            <h1>Agenda de Contatos</h1>
+        </header>
+        <div>
+            <h3>Qtd atual de Contatos: <span id="qtd-contatos">0</span></h3>
+    </div>
+        <form id="form-atividade">
+            <input id="nome-contato" type="text" required placeholder="Nome para contato" />
+            <input id="numero-contato" type="tel" required placeholder="(XX) XXXXX-XXXX" />
+            <button type="submit"> + Novo contato</button>
+        </form>
+        <table cellspacing = 0>
+            <thead>
+                <h3>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                    </tr>
+                </h3>
+            </thead>
+            <tbody>
+                <tr>
+
+                </tr>
+            </tbody>
+            <tfoot>
+    
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
